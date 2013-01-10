@@ -1,0 +1,28 @@
+{
+  "name": "broken-image-finder",
+  "fullName": "Broken Image Finder",
+  "id": "bif@dupps.it",
+  "description": "The scope of the Broken Image Finder Add-On is to detect unavailable images by scaning the currently visited website and its embedded stylesheets.",
+  "author": "Bastian Dupps",
+  "license": "MPL 2.0",
+  "version": "0.5.3",
+  "icon": "icon.png",
+  "icon64": "icon64.png",
+  "homepage": "http://dupps.it/bif/",
+  "preferences": [
+    {
+      "name": "alert403",
+      "title": "Alert 403 Statuscodes?",
+      "description": "Should 403 statuscodes be displayed in the notification popup?",
+      "type": "bool",
+      "value": false
+    },
+    {
+      "name": "showDataURI",
+      "title": "Show found Data-URIs?",
+      "description": "Should Data-URI strikes be shown?",
+      "type": "bool",
+      "value": false
+    }
+  ]
+}
