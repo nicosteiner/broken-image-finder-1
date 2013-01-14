@@ -11,6 +11,13 @@
   "homepage": "http://dupps.it/bif/",
   "preferences": [
     {
+      "name": "hideToolbarIcon",
+      "title": "Do not show toolbar icon?",
+      "description": "Should the toolbar icon be hidden?",
+      "type": "bool",
+      "value": false
+    },
+    {
       "name": "alert403",
       "title": "Alert 403 Statuscodes?",
       "description": "Should 403 statuscodes be displayed in the notification popup?",
