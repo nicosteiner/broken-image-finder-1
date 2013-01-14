@@ -23,7 +23,7 @@ div {
 .resultElement {
     padding: 2px;
     min-width: 628px;
-    overflow: visible;
+    word-wrap: break-word;
 }
 
 .resultElement:not(:last-child) {
